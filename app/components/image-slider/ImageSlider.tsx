@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -25,7 +25,7 @@ const images = [
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
       {images.map((image, index) => (
             <SwiperSlide key={index}>
-                <img
+                <Image
                 src={image.path}
                 alt={image.name}
                 width={300}
