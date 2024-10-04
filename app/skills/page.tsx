@@ -4,9 +4,9 @@ import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-
 
 const Skills = () => {
   return (
-    <main className="bg-[#121212]">
+    <main className="page-container">
      <BackgroundBeamsWithCollision>
-     <div className="">
+     <div className="page-section">
         <SkillsSection />
       </div>
      </BackgroundBeamsWithCollision>

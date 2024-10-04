@@ -3,9 +3,9 @@ import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-
 
 export default function Home() {
   return (
-    <main className="bg-[#121212]">
+    <main className="page-container">
       <BackgroundBeamsWithCollision>
-      <div className="">
+      <div className="page-section">
         < ContactSection />
     </div>
       </BackgroundBeamsWithCollision>
