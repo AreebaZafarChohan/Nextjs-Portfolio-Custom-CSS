@@ -11,7 +11,7 @@
   margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   margin-bottom: 7rem;
 }
 
@@ -519,7 +519,7 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .skills-slider-wrapper {
@@ -664,15 +664,15 @@
 }
 
 /* ContactSection */
-.container {
+.contact-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   background-color: transparent;
   margin-top: 3rem;
 }
 
-.heading {
+.contact-heading {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -758,7 +758,7 @@
 
 @media (min-width: 1023px) {
   .skills-slider-wrapper,
-  .skills-slider-wrapper {
+  .skills-bar-wrapper {
     max-width: 400px;
   }
 }
@@ -786,7 +786,7 @@
   }
 
   .skills-slider-wrapper,
-  .skills-slider-wrapper {
+  .skills-bar-wrapper {
     max-width: 300px;
   }
 }
@@ -863,7 +863,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .heading {
+  .contact-heading {
     font-size: 2rem;
   }
 
@@ -914,4 +914,39 @@
   .about-title {
     font-size: 2rem;
   }
+
+  .highlight-text {
+    font-size: 3rem;
+  }
+
+  .skills-slider-wrapper,
+  .skills-bar-wrapper {
+    max-width: 250px;
+    margin-left: 1rem;
+  }
+
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .highlight-skills {
+    font-size: 3rem;
+  }
+
+  .projects-heading {
+    font-size: 2rem;
+  }
+
+  .projects-gradient-text {
+    font-size: 3rem;
+  }
+
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .gradient-text {
+    font-size: 3rem;
+  }
+
 }

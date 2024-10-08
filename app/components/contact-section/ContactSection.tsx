@@ -3,8 +3,8 @@ import React from "react";
 const ContactSection: React.FC = () => {
   return (
     <section>
-      <div className="container">
-        <h2 className="heading">
+      <div className="contact-container">
+        <h2 className="contact-heading">
           Contact{" "}
           <span className="gradient-text">
             Me
